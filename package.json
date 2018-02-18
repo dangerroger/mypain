@@ -1,0 +1,35 @@
+{
+  "name": "mypain",
+  "version": "1.0.0",
+  "description": "online pain rehabilitation and symptom tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangerroger/mypain.git"
+  },
+  "keywords": [
+    "chronic",
+    "pain",
+    "rehab"
+  ],
+  "author": "Dr Rahul Seewal and Sonia Seewal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dangerroger/mypain/issues"
+  },
+  "homepage": "https://github.com/dangerroger/mypain#readme"
+}
